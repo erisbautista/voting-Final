@@ -25,6 +25,9 @@ Partial Class RegisterVoter
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(RegisterVoter))
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ModifyBttn = New System.Windows.Forms.Button()
+        Me.RegisterBttn = New System.Windows.Forms.Button()
+        Me.BttnDelete = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -32,9 +35,6 @@ Partial Class RegisterVoter
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.BttnDelete = New System.Windows.Forms.Button()
-        Me.RegisterBttn = New System.Windows.Forms.Button()
-        Me.ModifyBttn = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -51,6 +51,7 @@ Partial Class RegisterVoter
         '
         'Panel1
         '
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel1.Controls.Add(Me.ModifyBttn)
         Me.Panel1.Controls.Add(Me.RegisterBttn)
         Me.Panel1.Controls.Add(Me.BttnDelete)
@@ -59,6 +60,42 @@ Partial Class RegisterVoter
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(219, 218)
         Me.Panel1.TabIndex = 1
+        '
+        'ModifyBttn
+        '
+        Me.ModifyBttn.BackgroundImage = CType(resources.GetObject("ModifyBttn.BackgroundImage"), System.Drawing.Image)
+        Me.ModifyBttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ModifyBttn.Location = New System.Drawing.Point(26, 115)
+        Me.ModifyBttn.Name = "ModifyBttn"
+        Me.ModifyBttn.Size = New System.Drawing.Size(124, 41)
+        Me.ModifyBttn.TabIndex = 2
+        Me.ModifyBttn.Text = "Modify        "
+        Me.ModifyBttn.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ModifyBttn.UseVisualStyleBackColor = True
+        '
+        'RegisterBttn
+        '
+        Me.RegisterBttn.BackgroundImage = CType(resources.GetObject("RegisterBttn.BackgroundImage"), System.Drawing.Image)
+        Me.RegisterBttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.RegisterBttn.Location = New System.Drawing.Point(26, 162)
+        Me.RegisterBttn.Name = "RegisterBttn"
+        Me.RegisterBttn.Size = New System.Drawing.Size(124, 41)
+        Me.RegisterBttn.TabIndex = 2
+        Me.RegisterBttn.Text = "Register Voter"
+        Me.RegisterBttn.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.RegisterBttn.UseVisualStyleBackColor = True
+        '
+        'BttnDelete
+        '
+        Me.BttnDelete.BackgroundImage = CType(resources.GetObject("BttnDelete.BackgroundImage"), System.Drawing.Image)
+        Me.BttnDelete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BttnDelete.Location = New System.Drawing.Point(26, 68)
+        Me.BttnDelete.Name = "BttnDelete"
+        Me.BttnDelete.Size = New System.Drawing.Size(124, 41)
+        Me.BttnDelete.TabIndex = 2
+        Me.BttnDelete.Text = "Delete        "
+        Me.BttnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.BttnDelete.UseVisualStyleBackColor = True
         '
         'Panel3
         '
@@ -87,11 +124,11 @@ Partial Class RegisterVoter
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(504, 116)
+        Me.Label1.Location = New System.Drawing.Point(528, 115)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(113, 16)
+        Me.Label1.Size = New System.Drawing.Size(87, 16)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Student Name :"
+        Me.Label1.Text = "Student ID :"
         '
         'TextBox1
         '
@@ -132,42 +169,6 @@ Partial Class RegisterVoter
         Me.Label2.Text = "Manage Voters"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'BttnDelete
-        '
-        Me.BttnDelete.BackgroundImage = CType(resources.GetObject("BttnDelete.BackgroundImage"), System.Drawing.Image)
-        Me.BttnDelete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BttnDelete.Location = New System.Drawing.Point(26, 68)
-        Me.BttnDelete.Name = "BttnDelete"
-        Me.BttnDelete.Size = New System.Drawing.Size(124, 41)
-        Me.BttnDelete.TabIndex = 2
-        Me.BttnDelete.Text = "Delete        "
-        Me.BttnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.BttnDelete.UseVisualStyleBackColor = True
-        '
-        'RegisterBttn
-        '
-        Me.RegisterBttn.BackgroundImage = CType(resources.GetObject("RegisterBttn.BackgroundImage"), System.Drawing.Image)
-        Me.RegisterBttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.RegisterBttn.Location = New System.Drawing.Point(26, 162)
-        Me.RegisterBttn.Name = "RegisterBttn"
-        Me.RegisterBttn.Size = New System.Drawing.Size(124, 41)
-        Me.RegisterBttn.TabIndex = 2
-        Me.RegisterBttn.Text = "Register Voter"
-        Me.RegisterBttn.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RegisterBttn.UseVisualStyleBackColor = True
-        '
-        'ModifyBttn
-        '
-        Me.ModifyBttn.BackgroundImage = CType(resources.GetObject("ModifyBttn.BackgroundImage"), System.Drawing.Image)
-        Me.ModifyBttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ModifyBttn.Location = New System.Drawing.Point(26, 115)
-        Me.ModifyBttn.Name = "ModifyBttn"
-        Me.ModifyBttn.Size = New System.Drawing.Size(124, 41)
-        Me.ModifyBttn.TabIndex = 2
-        Me.ModifyBttn.Text = "Modify        "
-        Me.ModifyBttn.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.ModifyBttn.UseVisualStyleBackColor = True
-        '
         'RegisterVoter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -181,6 +182,7 @@ Partial Class RegisterVoter
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Name = "RegisterVoter"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "RegisterVoter"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
@@ -197,11 +199,11 @@ Partial Class RegisterVoter
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label3 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label2 As Label
     Friend WithEvents ModifyBttn As Button
     Friend WithEvents RegisterBttn As Button
     Friend WithEvents BttnDelete As Button
+    Public WithEvents TextBox1 As TextBox
 End Class

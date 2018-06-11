@@ -18,3 +18,7 @@ C:\Users\jemelle\source\repos\VotingSystemExperiment\VotingSystemExperiment\obj\
 C:\Users\jemelle\source\repos\VotingSystemExperiment\VotingSystemExperiment\obj\Debug\WindowsApp1.VotingView.resources
 C:\Users\jemelle\source\repos\VotingSystemExperiment\VotingSystemExperiment\obj\Debug\WindowsApp1.RegisterVoter.resources
 C:\Users\jemelle\source\repos\VotingSystemExperiment\VotingSystemExperiment\obj\Debug\WindowsApp1.RegisterForm.resources
+C:\Users\jemelle\Desktop\github\voting-Final\VotingSystemExperiment\VotingSystemExperiment\obj\Debug\VotingSystemExperiment.vbprojAssemblyReference.cache
+C:\Users\jemelle\Desktop\github\voting-Final\VotingSystemExperiment\VotingSystemExperiment\obj\Debug\VotingSystemExperiment.exe
+C:\Users\jemelle\Desktop\github\voting-Final\VotingSystemExperiment\VotingSystemExperiment\obj\Debug\VotingSystemExperiment.xml
+C:\Users\jemelle\Desktop\github\voting-Final\VotingSystemExperiment\VotingSystemExperiment\obj\Debug\VotingSystemExperiment.pdb
